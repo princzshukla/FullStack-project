@@ -8,7 +8,7 @@ import {
   getProductDetails,
   getSimilarProducts,
   newReview,
-} from "../../actions/productAction";
+} from "../../actions/productActions.js";
 import { NextBtn, PreviousBtn } from "../Home/Banner/Banner";
 import ProductSlider from "../Home/ProductSlider/ProductSlider";
 import Loader from "../Layouts/Loader";

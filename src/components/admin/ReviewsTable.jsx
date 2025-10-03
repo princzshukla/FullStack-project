@@ -6,12 +6,12 @@ import {
   clearErrors,
   deleteReview,
   getAllReviews,
-} from "../../actions/productAction";
+} from "../../actions/productActions.js";
 import Rating from "@mui/material/Rating";
 import Actions from "./Actions";
-import { DELETE_REVIEW_RESET } from "../../constants/productConstants";
-import MetaData from "../Layouts/MetaData";
-import BackdropLoader from "../Layouts/BackdropLoader";
+import { DELETE_REVIEW_RESET } from "../../constants/productsConstants.js";
+import MetaData from "../layout/MetData.jsx";
+import BackdropLoader from "../layout/BackdropLoader.jsx";
 
 const ReviewsTable = () => {
   const dispatch = useDispatch();

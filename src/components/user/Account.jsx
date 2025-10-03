@@ -1,10 +1,10 @@
 import { useEffect } from "react";
-import Sidebar from "./Sidebar";
+import Sidebar from "../Admin/Sidebar/Sidebar.jsx";
 import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import Loader from "../Layouts/Loader";
-import MinCategory from "../Layouts/MinCategory";
-import MetaData from "../Layouts/MetaData";
+import Loader from "../layout/loader.jsx";
+import MinCategory from "../layout/MinCategory.jsx";
+import MetaData from "../layout/MetData.jsx";
 
 const Account = () => {
   const navigate = useNavigate();

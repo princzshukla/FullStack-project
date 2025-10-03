@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   addToWishlist,
   removeFromWishlist,
-} from "../../actions/wishlistAction";
+} from "../../actions/wishListActions.js";
 import { useSnackbar } from "notistack";
 
 const Product = ({

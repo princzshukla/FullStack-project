@@ -2,11 +2,11 @@ import { useSnackbar } from "notistack";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import { clearErrors, getOrderDetails } from "../../actions/orderAction";
-import Loader from "../Layouts/Loader";
+import { clearErrors, getOrderDetails } from "../../actions/orderActions.js"
+import Loader from "../layout/loader.jsx";
 import TrackStepper from "./TrackStepper";
-import MinCategory from "../Layouts/MinCategory";
-import MetaData from "../Layouts/MetaData";
+import MinCategory from "../layout/MinCategory.jsx";
+import MetaData from "../layout/MetData.jsx";
 
 const OrderDetails = () => {
   const dispatch = useDispatch();

@@ -8,16 +8,16 @@ import { useNavigate, useParams } from "react-router-dom";
 import {
   REMOVE_PRODUCT_DETAILS,
   UPDATE_PRODUCT_RESET,
-} from "../../constants/productConstants";
+} from "../../constants/productsConstants.js";
 import {
   clearErrors,
   getProductDetails,
   updateProduct,
-} from "../../actions/productAction";
+} from "../../actions/productActions.js";
 import ImageIcon from "@mui/icons-material/Image";
-import BackdropLoader from "../Layouts/BackdropLoader";
+import BackdropLoader from "../layout/BackdropLoader.jsx";
 import { categories } from "../../utils/constants";
-import MetaData from "../Layouts/MetaData";
+import MetaData from "../layout/MetData.jsx";
 
 const UpdateProduct = () => {
   const dispatch = useDispatch();

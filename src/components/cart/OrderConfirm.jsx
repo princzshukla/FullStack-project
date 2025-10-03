@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
-import CartItem from "./CartItem";
-import PriceSidebar from "./PriceSidebar";
-import Stepper from "./Stepper";
+import CartItem from "./cartitems.jsx";
+import PriceSidebar from "./priceSidebar.jsx";
+import Stepper from "./stepper.jsx";
 import { useNavigate } from "react-router-dom";
 import MetaData from "../Layouts/MetaData";
 

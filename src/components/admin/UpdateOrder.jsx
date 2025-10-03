@@ -7,14 +7,14 @@ import {
   clearErrors,
   getOrderDetails,
   updateOrder,
-} from "../../actions/orderAction";
+} from "../../actions/orderActions.js";
 import { UPDATE_ORDER_RESET } from "../../constants/orderConstants";
-import { formatDate } from "../../utils/functions";
-import TrackStepper from "../Order/TrackStepper";
+import { formatDate } from "../../utils/functions.jsx";
+import TrackStepper from "../Order/TrackSteppers.jsx";
 import Loading from "./Loading";
 import { Link } from "react-router-dom";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import MetaData from "../Layouts/MetaData";
+import MetaData from "../layout/MetData.jsx";
 
 const UpdateOrder = () => {
   const dispatch = useDispatch();

@@ -1,8 +1,8 @@
 import { useSelector } from "react-redux";
-import MetaData from "../Layouts/MetaData";
-import MinCategory from "../Layouts/MinCategory";
-import Sidebar from "../user/Sidebar";
-import Product from "./product";
+import MetaData from "../layout/MetData.jsx";
+import MinCategory from "../layout/MinCategory.jsx";
+import Sidebar from "../user/Sidebar.jsx";
+import Product from "./product.jsx";
 
 const Wishlist = () => {
   const { wishlistItems } = useSelector((state) => state.wishlist);

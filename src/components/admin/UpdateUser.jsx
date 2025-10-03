@@ -6,7 +6,7 @@ import {
   clearErrors,
   getUserDetails,
   updateUser,
-} from "../../actions/userAction";
+} from "../../actions/userActions.js";
 import {
   UPDATE_USER_RESET,
   REMOVE_USER_DETAILS,
@@ -18,8 +18,8 @@ import MenuItem from "@mui/material/MenuItem";
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import TextField from "@mui/material/TextField";
-import MetaData from "../Layouts/MetaData";
-import BackdropLoader from "../Layouts/BackdropLoader";
+import MetaData from "../layout/MetData.jsx";
+import BackdropLoader from "../layout/BackdropLoader";
 
 const UpdateUser = () => {
   const dispatch = useDispatch();

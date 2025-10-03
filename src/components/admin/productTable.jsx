@@ -7,12 +7,12 @@ import {
   clearErrors,
   deleteProduct,
   getAdminProducts,
-} from "../../actions/productAction";
+} from "../../actions/productActions.js";
 import Rating from "@mui/material/Rating";
-import { DELETE_PRODUCT_RESET } from "../../constants/productConstants";
+import { DELETE_PRODUCT_RESET } from "../../constants/productsConstants.js";
 import Actions from "./Actions";
-import MetaData from "../Layouts/MetaData";
-import BackdropLoader from "../Layouts/BackdropLoader";
+import MetaData from "../layout/MetData.jsx";
+import BackdropLoader from "../layout/BackdropLoader.jsx";
 
 const ProductTable = () => {
   const dispatch = useDispatch();

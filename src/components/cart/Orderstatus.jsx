@@ -2,7 +2,7 @@ import { useSnackbar } from "notistack";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
-import { emptyCart } from "../../actions/cartAction";
+import { emptyCart } from "../../actions/cartActions.js";
 import {
   clearErrors,
   getPaymentStatus,
