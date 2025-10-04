@@ -1,7 +1,7 @@
 import {
   REMOVE_FROM_SAVE_FOR_LATER,
   SAVE_FOR_LATER,
-} from "../constants/saveForLaterConstants";
+} from "../constants/saveForlater.js";
 
 // Save For Later
 export const saveForLater = (id) => async (dispatch, getState) => {

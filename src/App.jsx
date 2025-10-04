@@ -12,7 +12,7 @@ import UpdatePassword from "./components/user/UpdatePassword.jsx";
 import ForgotPassword from "./components/user/ForgetPassword.jsx";
 import ResetPassword from "./components/user/ResetPassword.jsx";
 import Account from "./components/user/Account.jsx";
-import ProtectedRoute from "./routes/protectedRoutes.js";
+import ProtectedRoute from "./routes/protectedRoutes.jsx";
 import Products from "./components/products/products.jsx";
 import Cart from "./components/cart/cart.jsx";
 import Shipping from "./components/cart/shipping.jsx";

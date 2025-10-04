@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { clearErrors, loginUser } from "../../actions/userActions.js";
 import { useSnackbar } from "notistack";
 import BackdropLoader from "../layout/BackdropLoader.jsx";
-import MetaData from "../Layouts/MetaData";
+import MetaData from "../layout/MetData.jsx";
 
 const Login = () => {
   const dispatch = useDispatch();

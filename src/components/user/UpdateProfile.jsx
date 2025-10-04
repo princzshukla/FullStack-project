@@ -4,10 +4,10 @@ import { Avatar, FormControlLabel, Radio, RadioGroup } from "@mui/material";
 import { useSnackbar } from "notistack";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { clearErrors, loadUser, updateProfile } from "../../actions/userAction";
+import { clearErrors, loadUser, updateProfile } from "../../actions/userActions.js";
 import { UPDATE_PROFILE_RESET } from "../../constants/userConstants";
-import BackdropLoader from "../Layouts/BackdropLoader";
-import MetaData from "../Layouts/MetaData";
+import BackdropLoader from "../layout/BackdropLoader.jsx";
+import MetaData from "../layout/MetData.jsx";
 
 const UpdateProfile = () => {
   const dispatch = useDispatch();

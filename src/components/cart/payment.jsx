@@ -10,14 +10,14 @@ import Stepper from "./Stepper";
 //     useStripe,
 //     useElements,
 // } from '@stripe/react-stripe-js';
-import { clearErrors } from "../../actions/orderAction";
+import { clearErrors } from "../../actions/orderActions.js";
 import { useSnackbar } from "notistack";
-import { post } from "../../utils/paytmForm";
+import { post } from "../../utils/paymentForm.js";
 import FormControl from "@mui/material/FormControl";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
-import MetaData from "../Layouts/MetaData";
+import MetaData from "../layout/MetData.jsx";
 
 const Payment = () => {
   const dispatch = useDispatch();

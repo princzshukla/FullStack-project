@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import MetaData from "../layout/MetData.jsx";
 import CartItem from "./cartitems.jsx";
 import EmptyCart from "./EmptyCart.jsx";
-import PriceSidebar from "./PriceSidebar";
-import SaveForLaterItem from "./SaveForLaterItem";
+import PriceSidebar from "./PriceSidebar.jsx";
+import SaveForLaterItem from "./SaveForLateritems.jsx";
 
 const Cart = () => {
   const navigate = useNavigate();

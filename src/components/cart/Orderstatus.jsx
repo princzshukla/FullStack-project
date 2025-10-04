@@ -7,8 +7,8 @@ import {
   clearErrors,
   getPaymentStatus,
   newOrder,
-} from "../../actions/orderAction";
-import Loader from "../Layouts/Loader";
+} from "../../actions/orderActions.js";
+import Loader from "../layout/loader.jsx";
 
 const OrderStatus = () => {
   const dispatch = useDispatch();

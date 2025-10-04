@@ -2,10 +2,10 @@ import TextField from "@mui/material/TextField";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { clearErrors, forgotPassword } from "../../actions/userAction";
+import { clearErrors, forgotPassword } from "../../actions/userActions.js";
 import { useSnackbar } from "notistack";
-import BackdropLoader from "../Layouts/BackdropLoader";
-import MetaData from "../Layouts/MetaData";
+import BackdropLoader from "../layout/BackdropLoader.jsx";
+import MetaData from "../layout/MetData.jsx";
 import FormSidebar from "./FormSidebar";
 
 const ForgotPassword = () => {

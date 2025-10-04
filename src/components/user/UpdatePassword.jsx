@@ -7,10 +7,10 @@ import {
   clearErrors,
   loadUser,
   updatePassword,
-} from "../../actions/userAction";
+} from "../../actions/userActions.js";
 import { UPDATE_PASSWORD_RESET } from "../../constants/userConstants";
-import BackdropLoader from "../Layouts/BackdropLoader";
-import MetaData from "../Layouts/MetaData";
+import BackdropLoader from "../layout/BackdropLoader.jsx";
+import MetaData from "../layout/MetData.jsx";
 import FormSidebar from "./FormSidebar";
 
 const UpdatePassword = () => {

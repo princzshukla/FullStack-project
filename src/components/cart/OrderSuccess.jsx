@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import MetaData from "../Layouts/MetaData";
-import successfull from "../../assets/images/Transaction/success.png";
-import failed from "../../assets/images/Transaction/failed.png";
+import MetaData from "../layout/MetData.jsx";
+import successfull from "../../assets/images/transactions/success.png";
+import failed from "../../assets/images/transactions/failed.png";
 
 const OrderSuccess = ({ success }) => {
   const navigate = useNavigate();

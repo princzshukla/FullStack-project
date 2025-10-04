@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react";
-import { myOrders, clearErrors } from "../../actions/orderAction";
+import { myOrders, clearErrors } from "../../actions/orderActions.js";
 import { useDispatch, useSelector } from "react-redux";
-import Loader from "../Layouts/Loader";
+import Loader from "../layout/loader.jsx";
 import { useSnackbar } from "notistack";
-import OrderItem from "./OrderItem";
+import OrderItem from "../order/Orderitems.jsx";
 import FormControl from "@mui/material/FormControl";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import SearchIcon from "@mui/icons-material/Search";
-import MinCategory from "../Layouts/MinCategory";
-import MetaData from "../Layouts/MetaData";
+import MinCategory from "../layout/MinCategory.jsx";
+import MetaData from "../layout/MetData.jsx";
 
 const orderStatus = ["Processing", "Shipped", "Delivered"];
 const dt = new Date();

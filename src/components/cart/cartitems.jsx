@@ -1,8 +1,8 @@
 import { useSnackbar } from "notistack";
 import { useDispatch } from "react-redux";
-import { addItemsToCart, removeItemsFromCart } from "../../actions/cartAction";
-import { getDeliveryDate, getDiscount } from "../../utils/functions";
-import { saveForLater } from "../../actions/saveForLaterAction";
+import { addItemsToCart, removeItemsFromCart } from "../../actions/cartActions.js";
+import { getDeliveryDate, getDiscount } from "../../utils/functions.js";
+import { saveForLater } from "../../actions/saveForLaterActions.js";
 import { Link } from "react-router-dom";
 
 const CartItem = ({

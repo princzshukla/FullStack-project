@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { clearErrors, getOrderDetails } from "../../actions/orderActions.js"
 import Loader from "../layout/loader.jsx";
-import TrackStepper from "./TrackStepper";
+import TrackStepper from "../Order/TrackSteppers.jsx";
 import MinCategory from "../layout/MinCategory.jsx";
 import MetaData from "../layout/MetData.jsx";
 

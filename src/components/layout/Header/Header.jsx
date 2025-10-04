@@ -1,10 +1,10 @@
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import Searchbar from "./Searchbar";
+import Searchbar from "./searchBar.jsx";
 import logo from "../../../assets/images/logo.png";
 import PrimaryDropDownMenu from "./primaryDropDownMenu.jsx";
-import SecondaryDropDownMenu from "./SecondaryDropDownMenu";
+import SecondaryDropDownMenu from "./secondaryDropDownMenu.jsx";
 import { useState } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";

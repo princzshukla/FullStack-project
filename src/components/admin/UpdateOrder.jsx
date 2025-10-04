@@ -9,7 +9,7 @@ import {
   updateOrder,
 } from "../../actions/orderActions.js";
 import { UPDATE_ORDER_RESET } from "../../constants/orderConstants";
-import { formatDate } from "../../utils/functions.jsx";
+import { formatDate } from "../../utils/functions.js";
 import TrackStepper from "../Order/TrackSteppers.jsx";
 import Loading from "./Loading";
 import { Link } from "react-router-dom";

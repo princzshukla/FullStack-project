@@ -1,9 +1,9 @@
 import { useSelector } from "react-redux";
 import CartItem from "./cartitems.jsx";
-import PriceSidebar from "./priceSidebar.jsx";
-import Stepper from "./stepper.jsx";
+import PriceSidebar from "../cart/PriceSidebar.jsx";
+import Stepper from "../cart/Stepper.jsx";
 import { useNavigate } from "react-router-dom";
-import MetaData from "../Layouts/MetaData";
+import MetaData from "../layout/MetData.jsx";
 
 const OrderConfirm = () => {
   const navigate = useNavigate();

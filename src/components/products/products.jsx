@@ -8,16 +8,15 @@ import { useSnackbar } from "notistack";
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import { clearErrors, getProducts } from "../../actions/productAction";
-import Loader from "../Layouts/Loader";
-import MinCategory from "../Layouts/MinCategory";
+import { clearErrors, getProducts } from "../../actions/productActions.js";
+import Loader from "../layout/loader.jsx";
+import MinCategory from "../layout/MinCategory.jsx";
 import Product from "./product.jsx";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import StarIcon from "@mui/icons-material/Star";
-import { categories } from "../../utils/constants";
-import MetaData from "../Layouts/MetaData";
-import { getRandomProducts } from "../../utils/functions";
+import { categories } from "../../utils/constants.js";
+import MetaData from "../layout/MetData.jsx";
 import { useLocation } from "react-router-dom";
 
 const Products = () => {
