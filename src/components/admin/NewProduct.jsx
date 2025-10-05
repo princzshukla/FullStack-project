@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { NEW_PRODUCT_RESET } from "../../constants/productsConstants.js";
 import { createProduct, clearErrors } from "../../actions/productActions.js";
 import ImageIcon from "@mui/icons-material/Image";
-import { categories } from "../../utils/constants";
+import { categories } from "../../utils/constants.js";
 import MetaData from "../layout/MetData.jsx";
 import BackdropLoader from "../layout/BackdropLoader.jsx";
 

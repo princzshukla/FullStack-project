@@ -16,7 +16,7 @@ import {
 } from "../../actions/productActions.js";
 import ImageIcon from "@mui/icons-material/Image";
 import BackdropLoader from "../layout/BackdropLoader.jsx";
-import { categories } from "../../utils/constants";
+import { categories } from "../../utils/constants.js";
 import MetaData from "../layout/MetData.jsx";
 
 const UpdateProduct = () => {

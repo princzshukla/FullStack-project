@@ -36,7 +36,7 @@ import {
   SLIDER_PRODUCTS_FAIL,
   SLIDER_PRODUCTS_REQUEST,
   SLIDER_PRODUCTS_SUCCESS,
-} from "../constants/productConstants";
+} from "../constants/productsConstants.js";
 
 export const productsReducer = (
   state = { products: [] },

@@ -1,7 +1,7 @@
 import {
   ADD_TO_WISHLIST,
   REMOVE_FROM_WISHLIST,
-} from "../constants/wishlistConstants";
+} from "../constants/wishlistConstants.js";
 
 export const wishlistReducer = (
   state = { wishlistItems: [] },

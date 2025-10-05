@@ -22,7 +22,7 @@ import {
   UPDATE_ORDER_FAIL,
   UPDATE_ORDER_REQUEST,
   UPDATE_ORDER_SUCCESS,
-} from "../constants/orderConstants";
+} from "../constants/orderConstants.js";
 
 // New Order
 export const newOrder = (order) => async (dispatch) => {

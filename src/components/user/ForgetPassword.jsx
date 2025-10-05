@@ -6,7 +6,7 @@ import { clearErrors, forgotPassword } from "../../actions/userActions.js";
 import { useSnackbar } from "notistack";
 import BackdropLoader from "../layout/BackdropLoader.jsx";
 import MetaData from "../layout/MetData.jsx";
-import FormSidebar from "./FormSidebar";
+import FormSidebar from "./FormSidebar.jsx";
 
 const ForgotPassword = () => {
   const dispatch = useDispatch();

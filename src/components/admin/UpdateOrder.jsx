@@ -8,10 +8,10 @@ import {
   getOrderDetails,
   updateOrder,
 } from "../../actions/orderActions.js";
-import { UPDATE_ORDER_RESET } from "../../constants/orderConstants";
+import { UPDATE_ORDER_RESET } from "../../constants/orderConstants.js";
 import { formatDate } from "../../utils/functions.js";
 import TrackStepper from "../Order/TrackSteppers.jsx";
-import Loading from "./Loading";
+import Loading from "./Loading.jsx";
 import { Link } from "react-router-dom";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import MetaData from "../layout/MetData.jsx";

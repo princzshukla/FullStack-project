@@ -9,9 +9,9 @@ import {
   getSimilarProducts,
   newReview,
 } from "../../actions/productActions.js";
-import { NextBtn, PreviousBtn } from "../Home/Banner/Banner";
-import ProductSlider from "../Home/ProductSlider/ProductSlider";
-import Loader from "../Layouts/Loader";
+import { NextBtn, PreviousBtn } from "../home/banner/banner.jsx";
+import ProductSlider from "../Home/ProductSlider/productSlider.jsx";
+import Loader from "../layout/loader.jsx";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import FlashOnIcon from "@mui/icons-material/FlashOn";
 import StarIcon from "@mui/icons-material/Star";
@@ -26,15 +26,15 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
 import Rating from "@mui/material/Rating";
 import TextField from "@mui/material/TextField";
-import { NEW_REVIEW_RESET } from "../../constants/productConstants";
-import { addItemsToCart } from "../../actions/cartAction";
-import { getDeliveryDate, getDiscount } from "../../utils/functions";
+import { NEW_REVIEW_RESET } from "../../constants/productsConstants.js";
+import { addItemsToCart } from "../../actions/cartActions.js";
+import { getDeliveryDate, getDiscount } from "../../utils/functions.js";
 import {
   addToWishlist,
   removeFromWishlist,
-} from "../../actions/wishlistAction";
-import MinCategory from "../Layouts/MinCategory";
-import MetaData from "../Layouts/MetaData";
+} from "../../actions/wishListActions.js";
+import MinCategory from "../layout/MinCategory.jsx";
+import MetaData from "../layout/MetData.jsx";
 
 const ProductDetails = () => {
   const dispatch = useDispatch();

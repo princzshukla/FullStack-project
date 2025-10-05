@@ -4,9 +4,9 @@ import Categories from "../layout/categories.jsx";
 import DealSlider from "./DealSlider/DealSlider.jsx";
 //import ProductSlider from "./ProductSlider/ProductSlider";
 import { useDispatch, useSelector } from "react-redux";
-import { clearErrors, getSliderProducts } from "../../actions/productAction";
+import { clearErrors, getSliderProducts } from "../../actions/productActions.js";
 import { useSnackbar } from "notistack";
-import MetaData from "../Layouts/MetaData";
+import MetaData from "../layout/MetData.jsx";
 
 const Home = () => {
   const dispatch = useDispatch();

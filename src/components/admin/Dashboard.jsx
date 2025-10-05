@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Sidebar from "./Sidebar/Sidebar";
+import Sidebar from "./Sidebar/sidebar.jsx";
 import MenuIcon from "@mui/icons-material/Menu";
 
 const Dashboard = ({ activeTab, children }) => {

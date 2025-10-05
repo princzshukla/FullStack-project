@@ -1,7 +1,7 @@
 import StarIcon from "@mui/icons-material/Star";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import { Link } from "react-router-dom";
-import { getDiscount } from "../../utils/functions";
+import { getDiscount } from "../../utils/functions.js";
 import { useDispatch, useSelector } from "react-redux";
 import {
   addToWishlist,

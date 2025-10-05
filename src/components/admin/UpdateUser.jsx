@@ -10,8 +10,8 @@ import {
 import {
   UPDATE_USER_RESET,
   REMOVE_USER_DETAILS,
-} from "../../constants/userConstants";
-import Loading from "./Loading";
+} from "../../constants/userConstants.js";
+import Loading from "./Loading.jsx";
 import Avatar from "@mui/material/Avatar";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -19,7 +19,7 @@ import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import TextField from "@mui/material/TextField";
 import MetaData from "../layout/MetData.jsx";
-import BackdropLoader from "../layout/BackdropLoader";
+import BackdropLoader from "../layout/BackdropLoader.jsx";
 
 const UpdateUser = () => {
   const dispatch = useDispatch();

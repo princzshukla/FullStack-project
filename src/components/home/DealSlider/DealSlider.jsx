@@ -1,9 +1,9 @@
-import Product from "./Product";
+import Product from "./product.jsx";
 import Slider from "react-slick";
-//import { NextBtn, PreviousBtn } from "../Banner/Banner";
+import { NextBtn, PreviousBtn } from "../banner/banner.jsx";
 import { Link } from "react-router-dom";
-import { offerProducts } from "../../../utils/constants";
-import { getRandomProducts } from "../../../utils/functions";
+import { offerProducts } from "../../../utils/constants.js";
+import { getRandomProducts } from "../../../utils/functions.js";
 
 export const settings = {
   dots: false,

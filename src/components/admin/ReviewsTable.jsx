@@ -8,7 +8,7 @@ import {
   getAllReviews,
 } from "../../actions/productActions.js";
 import Rating from "@mui/material/Rating";
-import Actions from "./Actions";
+import Actions from "./Actions.jsx";
 import { DELETE_REVIEW_RESET } from "../../constants/productsConstants.js";
 import MetaData from "../layout/MetData.jsx";
 import BackdropLoader from "../layout/BackdropLoader.jsx";

@@ -23,7 +23,7 @@ import {
   DELETE_ORDER_FAIL,
   UPDATE_ORDER_RESET,
   DELETE_ORDER_RESET,
-} from "../constants/orderConstants";
+} from "../constants/orderConstants.js";
 
 export const newOrderReducer = (state = {}, { type, payload }) => {
   switch (type) {

@@ -4,7 +4,7 @@ import {
   EMPTY_CART,
   REMOVE_FROM_CART,
   SAVE_SHIPPING_INFO,
-} from "../constants/cartConstants";
+} from "../constants/cartConstants.js";
 
 // add to cart
 export const addItemsToCart =
