@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import Categories from "../layout/categories.jsx";
-//import Banner from "./Banner/Banner";
+import Banner from "./banner/banner.jsx";
 import DealSlider from "./DealSlider/DealSlider.jsx";
-//import ProductSlider from "./ProductSlider/ProductSlider";
+import ProductSlider from "./ProductSlider/productSlider.jsx";
 import { useDispatch, useSelector } from "react-redux";
 import { clearErrors, getSliderProducts } from "../../actions/productActions.js";
 import { useSnackbar } from "notistack";

@@ -1,17 +1,27 @@
-import { StrictMode } from "react";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-import { Provider } from "react-redux";
+import React from "react";
+import ReactDOM from "react-dom/client"; // ✅ Changed from 'react-dom'
 import "./index.css";
-import App from "./App.jsx";
-import store from "./store.js";  // or whatever the correct path is
+import App from "./App";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from "./store";
+import { SnackbarProvider } from "notistack";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <StrictMode>
+  // ✅ Changed to createRoot
+  <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <SnackbarProvider
+        maxSnack={2}
+        anchorOrigin={{
+          vertical: "bottom",
+          horizontal: "center",
+        }}
+      >
+        <Router>
+          <App />
+        </Router>
+      </SnackbarProvider>
     </Provider>
-  </StrictMode>
+  </React.StrictMode>
 );
