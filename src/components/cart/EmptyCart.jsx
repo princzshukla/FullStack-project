@@ -15,7 +15,7 @@ const EmptyCart = () => {
       <p className="text-xs">Add items to it now.</p>
       <Link
         to="/products"
-        className="bg-primary-blue text-sm text-white px-12 py-2 rounded-sm shadow mt-3"
+        className="bg-blue-500 text-sm text-black px-12 py-2 rounded-md shadow mt-3"
       >
         Shop Now
       </Link>
