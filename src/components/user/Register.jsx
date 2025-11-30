@@ -95,8 +95,8 @@ const Register = () => {
       {loading && <BackdropLoader />}
       <main className="w-full mt-12 sm:pt-20 sm:mt-0">
         {/* <!-- row --> */}
-        <div className="flex sm:w-4/6 sm:mt-4 m-auto mb-7 bg-white shadow-lg">
-          <FormSidebar
+        <div className="flex sm:w-4/6 sm:mt-4 m-auto mb-7 bg-white shadow-lg text-black">
+          <FormSidebar 
             title="Looks like you're new here!"
             tag="Sign up with your mobile number to get started"
           />
@@ -204,7 +204,7 @@ const Register = () => {
                 </div>
                 <button
                   type="submit"
-                  className="text-white py-3 w-full bg-primary-orange shadow hover:shadow-lg rounded-sm font-medium"
+                  className="text-black py-3 w-full bg-primary-orange shadow hover:shadow-lg rounded-sm font-medium bg-orange-400"
                 >
                   Signup
                 </button>

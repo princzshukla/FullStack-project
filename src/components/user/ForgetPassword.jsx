@@ -91,7 +91,7 @@ const ForgotPassword = () => {
                     </p>
                     <button
                       type="submit"
-                      className="text-white py-3 w-full bg-primary-orange shadow rounded-sm font-medium"
+                      className="text-black py-3 w-full bg-blue-400 shadow rounded-md font-medium transition-colors duration-150"
                     >
                       Submit
                     </button>

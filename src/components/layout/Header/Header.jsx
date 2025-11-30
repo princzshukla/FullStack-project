@@ -41,7 +41,7 @@ const Header = () => {
           {isAuthenticated === false ? (
             <Link
               to="/login"
-              className="px-3 sm:px-9 py-0.5 text-primary-blue bg-white border font-medium rounded-sm cursor-pointer"
+              className="px-3 sm:px-9 py-0.5 text-black bg-blue-500 border font-medium rounded-md cursor-pointer"
             >
               Login
             </Link>
@@ -69,15 +69,21 @@ const Header = () => {
           )}
 
           <span
-            className="moreDropDown hidden sm:flex items-center text-white font-medium gap-1 cursor-pointer"
+            className="moreDropDown hidden sm:flex items-center text-yellow-400 font-medium gap-1 cursor-pointer"
             onClick={() => setToggleSecondaryDropDown(!toggleSecondaryDropDown)}
           >
             More
             <span>
               {toggleSecondaryDropDown ? (
-                <ExpandLessIcon sx={{ fontSize: "16px" }} />
+                <ExpandLessIcon
+                  className="text-yellow-400"
+                  sx={{ fontSize: "16px" }}
+                />
               ) : (
-                <ExpandMoreIcon sx={{ fontSize: "16px" }} />
+                <ExpandMoreIcon
+                  className="text-yellow-400"
+                  sx={{ fontSize: "16px" }}
+                />
               )}
             </span>
           </span>
@@ -86,10 +92,10 @@ const Header = () => {
 
           <Link
             to="/cart"
-            className="flex items-center text-white font-medium gap-2 relative"
+            className="flex items-center text-yellow-400 font-medium gap-2 relative"
           >
             <span>
-              <ShoppingCartIcon />
+              <ShoppingCartIcon className="text-yellow-400" />
             </span>
             {cartItems.length > 0 && (
               <div className="w-5 h-5 p-2 bg-red-500 text-xs rounded-full absolute -top-2 left-3 flex justify-center items-center border">
